@@ -50,8 +50,65 @@
         </ul>
       </div>
       <div class="catalog-filter">
+        <span class="catalog-filter-label">Фильтр:</span>
+        <form class="catalog-filter-form">
+          <span>Стоимость</span>
+          <input class="catalog-filter-price min" name="min" type="text">
+          <label for="min">От</label>
+          <input class="catalog-filter-price max" name="max" type="text">
+          <label for="max">До</label>
+          <span>Цвет</span>
+          <ul class="color">
+            <li>
+              <input type="checkbox" name="color-1" checked>
+              <label for="color-1">Черный</label>
+            </li>
+            <li>
+              <input type="checkbox" name="color-2">
+              <label for="color-2">Зеленый</label>
+            </li>
+            <li>
+              <input type="checkbox" name="color-3" checked>
+              <label for="color-3">Синий</label>
+            </li>
+            <li>
+              <input type="checkbox" name="color-4" checked>
+              <label for="color-4">Красный</label>
+            </li>
+            <li>
+              <input type="checkbox" name="color-5">
+              <label for="color-5">Розовый</label>
+            </li>
+          </ul>
+          <span>Bluetooth</span>
+          <ul class="bluetooth">
+            <li>
+              <label>
+                <input type="radio" name="bluetooth" value="1" checked>
+                Есть
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="bluetooth" value="2">
+                Нет
+              </label>
+            </li>
+          </ul>          
+          <input type="submit" value="Показать">
+        </form>
       </div>
       <div class="catalog-sort">
+        <span class="catalog-sort-label">Сортировка</span>
+        <ul class="catalog-sort-value">
+          <li class="active">По цене</li>
+          <li><button>По типу</button></li>
+          <li><button>По популярности</button></li>
+        </ul>
+        <ul class="catalog-sort-order">
+          <li><button class="asc">По возрастанию</button></li>
+          <li class="active"><button class="desc">По убыванию</button></li>
+        </ul>
       </div>
       <div class="catalog-goods">
         <article class="catalog-good">
