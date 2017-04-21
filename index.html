@@ -3,11 +3,12 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link rel="stylesheet"  href="css/style.css">
   </head>
   <body class="home">
     <header>
       <div class="header-up">
-        <a href="#" class="Device-logo">Device</a>
+        <a href="#" class="device-logo">Device</a>
         <div>
           <form class="search">
             <input type="text" name="search-string" value="Поиск по сайту">
@@ -21,30 +22,30 @@
         </ul>
       </div>
       <div class="header-down">
-        <ul>
-         <nav class="catalog-menu">
-            <li><a href="#" alt="">Каталог товаров</a>
-              <ul class="catalog-submenu">
-                <li><a href="#" alt="">Виртуальная реальность</a></li>
-                <li><a href="#" alt="">Моноподы для селфи</a></li>
-                <li><a href="#" alt="">Экшн-камеры</a></li>
-                <li><a href="#" alt="">Фитнес-браслеты</a></li>
-                <li><a href="#" alt="">Умные часы</a></li>
-                <li><a href="#" alt="">Квадрокоптеры</a></li>
+        <nav class="main-navigation">
+          <ul class="main-navigation-list"> 
+            <li class="main-navigation-list-item"><a href="#">Каталог товаров</a>
+              <ul class="subnavigation-list">
+                <li class="subnavigation-list-item"><a href="#">Виртуальная реальность</a></li>
+                <li class="subnavigation-list-item"><a href="#">Моноподы для селфи</a></li>
+                <li class="subnavigation-list-item"><a href="#">Экшн-камеры</a></li>
+                <li class="subnavigation-list-item"><a href="#">Фитнес-браслеты</a></li>
+                <li class="subnavigation-list-item"><a href="#">Умные часы</a></li>
+                <li class="subnavigation-list-item"><a href="#">Квадрокоптеры</a></li>
               </ul>
             </li>
-          </nav>
-          <li><a href="#" alt="">Доставка</a></li>
-          <li><a href="#" alt="">Гарантия</a></li>
-          <li><a href="#" alt="">Контакты</a></li>
-        </ul>         
+            <li class="main-navigation-list-item"><a href="#">Доставка</a></li>
+            <li class="main-navigation-list-item" ><a href="#">Гарантия</a></li>
+            <li class="main-navigation-list-item"><a href="#">Контакты</a></li>
+          </ul>
+        </nav>         
       </div>
     </header>
     <main>
       <div class="home-carousel">
         <ul class="slides">
           <li class="slide active">
-            <img src="http://placehold.it/384x486" width="384" height="486" alt="">
+            <img src="http://placehold.it/384x486" width="384" height="486" alt="Селфи-палка">
             <span class="slide-number">01</span>
             <h2>Делай селфи, как Бен Стиллер!</h2>
             <p>Самая длинная палка для селфи доступна в нашем магазине. Восемь (Восемь, Карл!) метров длиной и весом 5 килограмм.</p>
@@ -109,22 +110,22 @@
       </div>
       <div class="home-popular">
         <ul>
-          <li class="home-popular-item"><a href="#" alt="">Виртуальная реальность</a></li>
-          <li class="home-popular-item"><a href="#" alt="">Моноподы для селфи</a></li>
-          <li class="home-popular-item"><a href="#" alt="">Экшн-камеры</a></li>
-          <li class="home-popular-item"><a href="#" alt="">Фитнес-браслеты</a></li>
-          <li class="home-popular-item"><a href="#" alt="">Умные часы</a></li>
-          <li class="home-popular-item"><a href="#" alt="">Квадрокоптеры</a></li>
+          <li class="home-popular-item"><a href="#">Виртуальная реальность</a></li>
+          <li class="home-popular-item"><a href="#">Моноподы для селфи</a></li>
+          <li class="home-popular-item"><a href="#">Экшн-камеры</a></li>
+          <li class="home-popular-item"><a href="#">Фитнес-браслеты</a></li>
+          <li class="home-popular-item"><a href="#">Умные часы</a></li>
+          <li class="home-popular-item"><a href="#">Квадрокоптеры</a></li>
         </ul>
       </div>
       <div class="home-services">
         <ul class="home-services-menu">
           <li class="active">Доставка</li>
           <li>
-            <a href="#" alt="">Гарантия</a>
+            <a href="#">Гарантия</a>
           </li>
           <li>
-            <a href="#" alt="">Кредит</a>
+            <a href="#">Кредит</a>
           </li>
         </ul>
         <ul class="home-services-description">
@@ -145,29 +146,29 @@
       <div class="home-logotypes">
         <ul class="logo">
           <li>
-            <a href="#" alt="">
+            <a href="#">
               <img src="http://placehold.it/260x100" width="260" height="100" alt="">
             </a>
           </li>
           <li>
-            <a href="#" alt="">
+            <a href="#">
               <img src="http://placehold.it/260x100" width="260" height="100" alt="">
             </a>
           </li>
           <li>
-            <a href="#" alt="">
+            <a href="#">
               <img src="http://placehold.it/260x100" width="260" height="100" alt="">
             </a>
           </li>
           <li>
-            <a href="#" alt="">
+            <a href="#">
               <img src="http://placehold.it/260x100" width="260" height="100" alt="">
             </a>
           </li>
         </ul>
       </div>
-      <div>
-        <div class="home-about-us">
+      <div class="home-info">
+        <div class="home-info-about-us">
           <h2>О нас</h2>
           <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
           <p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
@@ -176,15 +177,15 @@
             <li>Автотрейдинг</li>
             <li>ЖелДорЭкспедиция</li>
           </ul>
-          <a href="#" alt="">Подробнее о нас</a>
+          <a href="#">Подробнее о нас</a>
         </div>
-        <div class="home-contact">
+        <div class="home-info-contact">
           <h2>Контакты</h2>
           <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
-          <div>
+          <div class="home-info-map">
             <img src="http://placehold.it/566x222" width="566" height="222" alt="">
           </div>
-          <a href="#" alt="">Напишите нам</a>
+          <a href="#">Напишите нам</a>
         </div>
       </div>
     </main>
