@@ -1,14 +1,20 @@
+html,
 body {
   font-size: 15px;
-  font-family: "OpenSans";
+  font-family: "OpenSans", "Arial", sans-serif;
   color: rgb(70, 70, 70);
   font-weight: normal;
   line-height: 2;
 }
 
+body {
+  background: white url("img/background.png") repeat;
+  width: 1200px;
+}
+
 h2 {
   font-size: 16.783px;
-  font-family: "Gilroy";
+  font-family: "Gilroy", "Arial", sans-serif;
   color: rgb(0, 0, 0);
   font-weight: bold;
   line-height: 1.2;
@@ -16,7 +22,7 @@ h2 {
 
 h3 {
   font-size: 10.769px;
-  font-family: "Gilroy";
+  font-family: "Gilroy", "Arial", sans-serif;
   color: rgb(247, 225, 132);
   font-weight: bold;
   text-transform: uppercase;
@@ -99,4 +105,270 @@ li.subnavigation-list-item a {
   line-height: 1.2;
 }
 
+header {
+  height: 186px;
+  background: #f7e296;
+  margin-top: 40px;
+  padding: 0 20px;
+}
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header-up {
+  width: 1160px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+  
+
+.heder-up-search {
+  width: 500px;
+  height: 16px;
+  padding-left: 60px;
+  padding-left: 40px;
+  float: left;
+}
+
+.header-up-user-menu {
+  width: 500px;
+  height: 16px;
+  padding-right: 60px;
+  float: right;
+  padding-bottom: 50px;
+}
+
+.header-down {
+  width: 1140px;
+  height: 17px;
+  padding-left: 60px;
+  padding-right: 60px;
+  float: left;
+  margin-bottom: 45px;
+}
+
+.title {
+  width: 1140px;
+  height: 90px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-bottom: 38px;
+}
+
+h1 {
+  width: 1140px;
+  height: 45px;
+  margin-bottom: 23px;
+}
+
+.bread-crumbs {
+  width: 1140px;
+  height: 16px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.catalog {
+  width: 1160px;
+  height: 1263px;
+}
+
+.catalog-filter {
+  width: 328px;
+  height: 790px; 
+  background: #efefef;
+  float: left;
+}
+
+.catalog-filter-label {
+  width: 328;
+  padding-left: 60px;
+  padding-right: 168px;
+  padding-bottom: 28px;
+  padding-top: 28px;
+  background: #dcdcdc;
+}
+
+.catalog-wrapper-sort-label {
+  width: 832px;
+  height: 70px;
+  background: #efefef;
+  float: right;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  padding-left: 73px;
+  box-sizing: border-box;
+}
+
+.catalog-goods {
+  width: 832px;
+  height: 1213px;
+}
+
+
+.catalog-good1 {
+  width: 360px;
+  height: 462px;
+  margin-left: 72px;
+  margin-right: 40px;
+  margin-top: 69px;
+  margin-bottom: 44px;
+  float: left;
+}
+
+.catalog-good2 {
+  width: 360px;
+  height: 462px;
+  margin-bottom: 44px;
+  float: right;
+}
+
+.catalog-good3 {
+  width: 360px;
+  height: 462px;
+  margin-bottom: 33px;
+  margin-left: 72px;
+  margin-right: 40px;
+  float: left;
+}
+
+.catalog-good4 {
+  width: 360px;
+  height: 462px;
+  margin-bottom: 33px;
+  float: right;
+}
+
+.catalog-paginator {
+  width: 760px;
+  height: 70px;
+  margin-left: 72px;
+  margin-bottom: 73px;
+}
+
+footer {
+  width: 1160px;
+  height: 323;
+  padding: 0 20px;
+  background: black;
+}
+
+.footer-up {
+  width: 1160px;
+  height: 39px;
+  margin-top: 57px;
+  margin-bottom: 35px;
+}
+
+.footer-center {
+  width: 1160px;
+  height: 23px;
+  margin-bottom: 63px;
+}
+
+.footer-down {
+  width: 1160px;
+  height: 43px;
+  margin-bottom: 63px;
+}
+
+.home-carousel {
+  width: 1020px;
+  height: 485px;
+  margin-bottom: 110px;
+}
+
+.slide-active img {
+  width: 384px;
+  height: 486px;
+  float: left;
+  margin-left: 80px;
+  margin-right: 120px;
+}
+
+h2 {
+  width: 400px;
+  height: 106px;
+  margin-top: 90px;
+  margin-bottom: 37px;
+  margin-right: 107px;
+  float: right;
+}
+
+p {
+  width: 480px;
+  height: 53px;
+  margin-bottom: 55px;
+  margin-right: 22px;
+  float: right;
+}
+
+.slide-read-more {
+  width: 480px;
+  height: 20px;
+  margin-bottom: 65px;
+  margin-right: 80px;
+  float: right;
+}
+
+.slide-features {
+  width: 460px;
+  height: 70px;
+  margin-right: 100px;
+  float: right;
+}
+
+.home-popular {
+  width: 1160px;
+  height: 245px;
+  margin-bottom: 84px;
+}
+ 
+.home-services {
+  width: 1160px;
+  height: 390px;
+  margin-bottom: 90px;
+}
+
+.home-logotypes {
+  width: 1160px;
+  height: 100px;
+  margin-bottom: 93px;
+}
+
+.logo img {
+  width: 260px;
+  height: 100px;
+  margin-right: 40px;
+  float: left;
+}
+
+.logo img:last-child {
+  margin-right: 0px;
+}
+
+.home-info {
+  width: 1160px;
+  height: 570px;
+  margin-bottom: 93px;
+}
+
+.home-info-about-us {
+  width: 460px;
+  height: 570px;
+  margin-right: 140px;
+  float: left;
+}
+
+.home-info-contact {
+  width: 560px;
+  height: 570px;
+  float: right;
+}
