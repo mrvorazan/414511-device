@@ -5,11 +5,31 @@ body {
   color: rgb(70, 70, 70);
   font-weight: normal;
   line-height: 2;
+  margin: 0px auto;
+  padding: 0px;
 }
+
+
+/* temp elements outline*/
+
+* {
+  outline-color: #EEE;
+  outline-style: dotted;
+  outline-width: thin;
+}
+
+
+/* temp styles*/
 
 body {
   background: white url("img/background.png") repeat;
-  width: 1200px;
+  min-width: 1200px;
+}
+
+.container {
+  width: 1160px;
+  padding: 0px 20px;
+  margin: 0 auto;
 }
 
 h2 {
@@ -36,6 +56,8 @@ h3 {
   font-weight: bold;
   line-height: 1.2;
   text-transform: uppercase;
+  display: block;
+  float: left;
 }
 
 .search input {
@@ -55,6 +77,10 @@ li.subnavigation-list-item a {
   line-height: 2.4;
 }
 
+.header-up-user-menu a {
+  padding: 0px 0px 0px 10px;
+}
+
 .main-navigation-list-item a {
   font-size: 18px;
   font-family: "Gilroy";
@@ -70,7 +96,6 @@ li.subnavigation-list-item a {
   font-weight: bold;
   line-height: 1;
 }
-
 
 .slide-read-more {
   font-size: 10.769px;
@@ -108,8 +133,7 @@ li.subnavigation-list-item a {
 header {
   height: 186px;
   background: #f7e296;
-  margin-top: 40px;
-  padding: 0 20px;
+  padding-top: 40px;
 }
 
 .clearfix::after {
@@ -119,11 +143,9 @@ header {
 }
 
 .header-up {
-  width: 1160px;
   margin: 0 auto;
   padding: 0 10px;
 }
-  
 
 .heder-up-search {
   width: 500px;
@@ -134,38 +156,33 @@ header {
 }
 
 .header-up-user-menu {
-  width: 500px;
+  width: auto;
   height: 16px;
-  padding-right: 60px;
+  page-break-after: 0px 60px 50px 0px;
   float: right;
-  padding-bottom: 50px;
 }
 
 .header-down {
-  width: 1140px;
   height: 17px;
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
   float: left;
   margin-bottom: 45px;
 }
 
 .title {
-  width: 1140px;
   height: 90px;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 40px;
+  padding-right: 40px;
   margin-bottom: 38px;
 }
 
 h1 {
-  width: 1140px;
   height: 45px;
   margin-bottom: 23px;
 }
 
 .bread-crumbs {
-  width: 1140px;
   height: 16px;
 }
 
@@ -176,13 +193,12 @@ h1 {
 }
 
 .catalog {
-  width: 1160px;
   height: 1263px;
 }
 
 .catalog-filter {
   width: 328px;
-  height: 790px; 
+  height: 790px;
   background: #efefef;
   float: left;
 }
@@ -211,7 +227,6 @@ h1 {
   width: 832px;
   height: 1213px;
 }
-
 
 .catalog-good1 {
   width: 360px;
@@ -254,27 +269,23 @@ h1 {
 }
 
 footer {
-  width: 1160px;
   height: 323;
   padding: 0 20px;
   background: black;
 }
 
 .footer-up {
-  width: 1160px;
   height: 39px;
   margin-top: 57px;
   margin-bottom: 35px;
 }
 
 .footer-center {
-  width: 1160px;
   height: 23px;
   margin-bottom: 63px;
 }
 
 .footer-down {
-  width: 1160px;
   height: 43px;
   margin-bottom: 63px;
 }
@@ -326,19 +337,16 @@ p {
 }
 
 .home-popular {
-  width: 1160px;
   height: 245px;
   margin-bottom: 84px;
 }
- 
+
 .home-services {
-  width: 1160px;
   height: 390px;
   margin-bottom: 90px;
 }
 
 .home-logotypes {
-  width: 1160px;
   height: 100px;
   margin-bottom: 93px;
 }
@@ -355,7 +363,6 @@ p {
 }
 
 .home-info {
-  width: 1160px;
   height: 570px;
   margin-bottom: 93px;
 }
@@ -371,4 +378,10 @@ p {
   width: 560px;
   height: 570px;
   float: right;
+}
+
+.header-up-user-menu li {
+  float: left;
+  display: block;
+  padding: 0px 5px 0px 10px;
 }
